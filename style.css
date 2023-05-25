@@ -1,0 +1,309 @@
+html, body { 
+    margin:0;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+}
+
+.content-container {
+    background-color: #fcf9f4;
+    padding-top: 100px;
+    height: 500px;
+}
+
+.content {
+    background-color: #ecece7;
+    width: 80%;
+    height: 400px;
+    margin: 50px auto 0 auto;
+    border-radius: 10px;
+    display: flex;
+}
+
+.content-right {
+    width: 30%;
+    margin: 20px auto 20px auto;
+}
+
+.content-right img {
+    width: 80%;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.content-left {
+    width: 60%;
+    margin: 20px auto 20px auto;
+}
+
+
+.tombol {
+    background-color: #14453d;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.tombol a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Logo section styling start*/
+.logo-container {
+    display: flex;
+    background-color: #fcf9f4;
+}
+
+.title-container p:first-child {
+    margin: 10px 10px 0 10px;
+    font-size: 18px;
+    color: #14453d;
+}
+
+.title-container p:nth-child(2) {
+    margin: 0 10px 10px 10px;
+    font-size: 12px;
+    color: #14453d;
+}
+
+.icon-kacamata {
+    width: 50px;
+    height: auto;
+    margin: 20px 40px 0 40px;
+}
+/* Logo section styling end*/
+
+/* Navbar section styling start*/
+nav {
+    background-color: #fcf9f4;
+}
+  
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+nav li {
+    float: left;
+}
+  
+nav li a {
+    display: block;
+    color: #14453d;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+nav li a:hover {
+    background-color: #14453d;
+    color: white;
+}
+/* Navbar section styling end*/
+
+/* Hero section styling start */
+.hero-container {
+    background-color: #fcf9f4;
+    display: flex;
+    padding-top: 80px;
+}
+
+.kacamata-1 {
+    width: 500px;
+    height: auto;
+    margin: 50px 50px 50px 100px;
+}
+
+.hero-container div:nth-child(2) {
+    color: #14453d;
+    margin: 75px 0 0 30px;
+}
+/* Hero section styling end */
+
+/* Slogan section styling start */
+.slogan-container {
+    background-color: #14453d;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    border: 1px solid black;
+}
+
+.slogan-container p {
+    padding: 30px 0 30px 0;
+}
+/* Slogan section styling end */
+
+/* Deskripsi section stling start */
+.deskripsi-container {
+    background-color: #fcf9f4;
+    display: flex;
+}
+
+.deskripsi-container div {
+    flex: 1;
+    height: 400px;
+}
+
+.deskripsi-gambar {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 60px;
+}
+
+.gambar {
+    margin-right: 50px;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.deskripsi-teks {
+    color: #14453d;
+}
+
+.deskripsi-teks p,ul {
+    margin-left: 30px;
+}
+
+.deskripsi-teks p:first-child {
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.deskripsi-teks li {
+    margin-top: 10px;
+}
+/* Deskripsi section stling end */
+
+/* Testimoni section styling start */
+.testimoni-container {
+    background-color: #ecece7;
+    text-align: center;
+    border: 1px solid #ecece7;
+    height: 250px;
+    color: #14453d;
+}
+
+.testimoni-container p:first-child {
+    padding-top: 40px;
+}
+
+.testimoni-container p:nth-child(2) {
+    font-size: 25px;
+}
+/* Testimoni section styling end */
+
+/* Katalog section styling start */
+.katalog {
+    background-color: #ecece7;
+    display: flex;
+    height: 600px;
+    padding-top: 80px;
+}
+
+.kategori {
+    background-color: white;
+    width: 20%;
+    height: 200px;
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    position: fixed;
+}
+
+.kategori h1 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #14453d;
+}
+
+.kategori input {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.produk-container {
+    background-color: white;
+    width: 70%;
+    height: 500px;
+    margin-left: 350px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.produk-container h1 {
+    font-size: 25px;
+    color: #14453d;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+.produk-konten {
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.produk {
+    width: 200px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.produk-gambar img {
+    margin-left: 50px;
+    width: 100px;
+    height: auto;
+}
+
+.produk-deskripsi {
+    text-align: center;
+}
+
+.produk-deskripsi h1 {
+    font-size: 20px;
+    color: #14453d;
+}
+/* Katalog section styling end */
+
+/* Akun section styling start */
+#akun-teks p:first-child {
+    margin-top: 70px;
+}
+
+#akun-teks p {
+    margin-top: 10px;
+}
+/* Akun section styling end */
+
+/* Keranjang section styling start */
+#keranjang-teks p {
+    margin-top: 100px;
+}
+/* Keranjang section styling start */
+
+/* Footer section syling start */
+.footer {
+    background-color: #fcf9f4;
+    height: 100px;
+    text-align: center;
+    border: 1px solid #fcf9f4;
+    padding-top: 50px;
+}
+/* Footer section syling end */
