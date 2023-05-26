@@ -267,11 +267,16 @@ nav li a:hover {
     display: none;
 }
 
+.produk:hover {
+    background-color: #ecece7;
+}
+
 .show {
     display: block;
 }
 
 .produk-gambar img {
+    margin-top: 10px;
     margin-left: 50px;
     width: 100px;
     height: auto;
@@ -282,6 +287,7 @@ nav li a:hover {
 }
 
 .produk-deskripsi h1 {
+    margin-top: 0;
     font-size: 20px;
     color: #14453d;
 }
