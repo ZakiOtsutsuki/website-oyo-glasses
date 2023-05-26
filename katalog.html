@@ -7,6 +7,7 @@
     <title>Document</title>
     <title>Oyo Glasses</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script> 
 </head>
 <body>
     <!-- Header Start -->
@@ -45,11 +46,11 @@
         <div class="kategori">
             <form action="#">
                 <h1>Cari berdasarkan kategori</h1>
-                <input type="radio" id="kategori-1" name="kategori-kacamata" value="">
+                <input type="radio" id="kategori-1" name="kategori-kacamata" onclick="filterSelection('kategori-1')">
                 <label for="kategori-1">Kategori 1</label><br>
-                <input type="radio" id="kategori-2" name="kategori-kacamata" value="">
+                <input type="radio" id="kategori-2" name="kategori-kacamata" onclick="filterSelection('kategori-2')">
                 <label for="kategori-2">Kategori 2</label><br>
-                <input type="radio" id="kategori-3" name="kategori-kacamata" value="">
+                <input type="radio" id="kategori-3" name="kategori-kacamata" onclick="filterSelection('kategori-3')">
                 <label for="kategori-3">Kategori 3</label><br>
             </form>
         </div>
@@ -59,60 +60,176 @@
         <div class="produk-container">
             <h1>Produk</h1>
             <div class="produk-konten">
-                <div class="produk">
+                <!-- Kategori 1 start -->
+                <div class="produk kategori-1">
                     <div class="produk-gambar">
                         <img src="img/produk-1.jpg" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
-                        <h1>Kacamata 1</h1>
+                        <h1>Kacamata 1-1</h1>
                         <p>Rp. 1.000.000</p>
                     </div>
                 </div>
-                <div class="produk">
+                <div class="produk kategori-1">
                     <div class="produk-gambar">
                         <img src="img/produk-1.jpg" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
-                        <h1>Kacamata 2</h1>
+                        <h1>Kacamata 1-2</h1>
                         <p>Rp. 1.000.000</p>
                     </div>
                 </div>
-                <div class="produk">
+                <div class="produk kategori-1">
                     <div class="produk-gambar">
                         <img src="img/produk-1.jpg" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
-                        <h1>Kacamata 3</h1>
+                        <h1>Kacamata 1-3</h1>
                         <p>Rp. 1.000.000</p>
                     </div>
                 </div>
-                <div class="produk">
+                <div class="produk kategori-1">
                     <div class="produk-gambar">
                         <img src="img/produk-1.jpg" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
-                        <h1>Kacamata 4</h1>
+                        <h1>Kacamata 1-4</h1>
                         <p>Rp. 1.000.000</p>
                     </div>
                 </div>
-                <div class="produk">
+                <div class="produk kategori-1">
                     <div class="produk-gambar">
                         <img src="img/produk-1.jpg" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
-                        <h1>Kacamata 5</h1>
+                        <h1>Kacamata 1-5</h1>
                         <p>Rp. 1.000.000</p>
                     </div>
                 </div>
-                <div class="produk">
+                <div class="produk kategori-1">
                     <div class="produk-gambar">
                         <img src="img/produk-1.jpg" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
-                        <h1>Kacamata 6</h1>
+                        <h1>Kacamata 1-6</h1>
                         <p>Rp. 1.000.000</p>
                     </div>
                 </div>
+                <!-- Kategori 1 end -->
+
+                <!-- Kategori 2 start -->
+                <div class="produk kategori-2">
+                    <div class="produk-gambar">
+                        <img src="img/produk-1.jpg" alt="kacamata">
+                    </div>
+                    <div class="produk-deskripsi">
+                        <h1>Kacamata 2-1</h1>
+                        <p>Rp. 1.000.000</p>
+                    </div>
+                </div>
+                <div class="produk kategori-2">
+                    <div class="produk-gambar">
+                        <img src="img/produk-1.jpg" alt="kacamata">
+                    </div>
+                    <div class="produk-deskripsi">
+                        <h1>Kacamata 2-2</h1>
+                        <p>Rp. 1.000.000</p>
+                    </div>
+                </div>
+                <div class="produk kategori-2">
+                    <div class="produk-gambar">
+                        <img src="img/produk-1.jpg" alt="kacamata">
+                    </div>
+                    <div class="produk-deskripsi">
+                        <h1>Kacamata 2-3</h1>
+                        <p>Rp. 1.000.000</p>
+                    </div>
+                </div>
+                <div class="produk kategori-2">
+                    <div class="produk-gambar">
+                        <img src="img/produk-1.jpg" alt="kacamata">
+                    </div>
+                    <div class="produk-deskripsi">
+                        <h1>Kacamata 2-4</h1>
+                        <p>Rp. 1.000.000</p>
+                    </div>
+                </div>
+                <div class="produk kategori-2">
+                    <div class="produk-gambar">
+                        <img src="img/produk-1.jpg" alt="kacamata">
+                    </div>
+                    <div class="produk-deskripsi">
+                        <h1>Kacamata 2-5</h1>
+                        <p>Rp. 1.000.000</p>
+                    </div>
+                </div>
+                <div class="produk kategori-2">
+                    <div class="produk-gambar">
+                        <img src="img/produk-1.jpg" alt="kacamata">
+                    </div>
+                    <div class="produk-deskripsi">
+                        <h1>Kacamata 2-6</h1>
+                        <p>Rp. 1.000.000</p>
+                    </div>
+                </div>
+                <!-- Kategori 2 end -->
+
+                <!-- Kategori 3 start -->
+                <div class="produk kategori-3">
+                    <div class="produk-gambar">
+                        <img src="img/produk-1.jpg" alt="kacamata">
+                    </div>
+                    <div class="produk-deskripsi">
+                        <h1>Kacamata 3-1</h1>
+                        <p>Rp. 1.000.000</p>
+                    </div>
+                </div>
+                <div class="produk kategori-3">
+                    <div class="produk-gambar">
+                        <img src="img/produk-1.jpg" alt="kacamata">
+                    </div>
+                    <div class="produk-deskripsi">
+                        <h1>Kacamata 3-2</h1>
+                        <p>Rp. 1.000.000</p>
+                    </div>
+                </div>
+                <div class="produk kategori-3">
+                    <div class="produk-gambar">
+                        <img src="img/produk-1.jpg" alt="kacamata">
+                    </div>
+                    <div class="produk-deskripsi">
+                        <h1>Kacamata 3-3</h1>
+                        <p>Rp. 1.000.000</p>
+                    </div>
+                </div>
+                <div class="produk kategori-3">
+                    <div class="produk-gambar">
+                        <img src="img/produk-1.jpg" alt="kacamata">
+                    </div>
+                    <div class="produk-deskripsi">
+                        <h1>Kacamata 3-4</h1>
+                        <p>Rp. 1.000.000</p>
+                    </div>
+                </div>
+                <div class="produk kategori-3">
+                    <div class="produk-gambar">
+                        <img src="img/produk-1.jpg" alt="kacamata">
+                    </div>
+                    <div class="produk-deskripsi">
+                        <h1>Kacamata 3-5</h1>
+                        <p>Rp. 1.000.000</p>
+                    </div>
+                </div>
+                <div class="produk kategori-3">
+                    <div class="produk-gambar">
+                        <img src="img/produk-1.jpg" alt="kacamata">
+                    </div>
+                    <div class="produk-deskripsi">
+                        <h1>Kacamata 3-6</h1>
+                        <p>Rp. 1.000.000</p>
+                    </div>
+                </div>
+                <!-- Kategori 3 end -->
             </div>
         </div>
         <!-- Produk Section End -->
