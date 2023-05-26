@@ -1,4 +1,3 @@
-filterSelection("kategori-1")
 function filterSelection(c) {
   var x, i;
   x = document.getElementsByClassName("produk");
