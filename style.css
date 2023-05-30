@@ -333,7 +333,7 @@ nav li a:hover {
     margin-right: 5%;
     height: 500px;
     width: 50%;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
 }
 
 .image-container {
@@ -360,11 +360,50 @@ nav li a:hover {
 .detail-produk-deskripsi {
     height: 500px;
     width: 35%;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
 }
 
 .counter {
     font-size: 15px;
+}
+
+.detail-produk-deskripsi h1 {
+    color: #14453d;
+    margin-top: 120px;
+    margin-left: 20px;
+}
+
+#harga {
+    color: black;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+#harga-produk {
+    color: #14453d;
+    margin-left: 20px;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+#jumlah, #decrementBtn, #incrementBtn, .counter  {
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline;
+}
+
+.tombol-keranjang, .tombol-beli {
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: #14453d;
+    border-radius: 10px;
+}
+
+.tombol-beli {
+    margin-top: 50px;
 }
 /* Halaman Produk styling end */
 
