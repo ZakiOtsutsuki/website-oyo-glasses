@@ -1,3 +1,5 @@
+// 
+filterSelection("kategori-1");
 function filterSelection(c) {
   var x, i;
   x = document.getElementsByClassName("produk");
@@ -32,3 +34,32 @@ function RemoveClass(element, name) {
   }
   element.className = arr1.join(" ");
 }
+// 
+
+// 
+let img = document.getElementById("gambar-default").src;
+showImage(img);
+function showImage(imagesource) {
+  var expandImg = document.getElementById("expandedImg"); // Get the expanded image
+  expandImg.src = imagesource; // Get the image text
+  expandImg.parentElement.style.display = "block"; // Show the container element (hidden with CSS)
+}
+
+
+let counterElement = document.getElementById('counter');
+let count = 1; // Set the initial count
+counterElement.textContent = count;
+function updateCounter() { // Function to update the counter
+  counterElement.textContent = count;
+}
+function incrementCount() { // Function to increment the count
+  count++;
+  updateCounter();
+}
+function decrementCount() { // Function to decrement the count
+  if(count >= 2){
+    count--;
+    updateCounter();
+  }
+}
+

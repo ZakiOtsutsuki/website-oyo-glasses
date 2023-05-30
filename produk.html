@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <title>Oyo Glasses</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
     <!-- Header Start -->
@@ -39,5 +39,39 @@
     </header>
     <!-- Header End -->
 
+    <!-- Content Produk Start -->
+    <div class="detail-produk-container">
+        <div class="detail-produk-gambar">
+            <div class="image-container">
+                <img id="expandedImg" style="width:100%">
+            </div>
+            <div class="image-row">
+                <div class="image-column">
+                  <img src="img/gambar-produk-1.png" alt="kacamata" onclick="showImage(this.src);" id="gambar-default">
+                </div>
+                <div class="image-column">
+                  <img src="img/gambar-produk-2.png" alt="kacamata" onclick="showImage(this.src);">
+                </div>
+                <div class="image-column">
+                  <img src="img/gambar-produk-3.png" alt="kacamata" onclick="showImage(this.src);">
+                </div>
+                <div class="image-column">
+                  <img src="img/gambar-produk-4.png" alt="kacamata" onclick="showImage(this.src);">
+                </div>
+              </div>
+        </div>
+        <div class="detail-produk-deskripsi">
+            <h1>Cartier</h1>
+            <p>Harga<br>Rp. 31.275.000</p>
+            <button id="decrementBtn" onclick="decrementCount();">-</button>
+            <div class="counter" id="counter">1</div>
+            <button id="incrementBtn" onclick="incrementCount();">+</button>
+            <button>Beli Sekarang</button>
+            <br>
+            <button>Masukan Keranjang</button>
+        </div>
+    </div>
+    <!-- Content Produk End -->
+    <script src="script.js"></script>
 </body>
 </html>

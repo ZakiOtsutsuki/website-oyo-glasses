@@ -320,6 +320,54 @@ nav li a:hover {
 }
 /* Keranjang section styling start */
 
+/* Halaman Produk styling start */
+.detail-produk-container {
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    /* border: 2px solid yellow; */
+}
+
+.detail-produk-gambar {
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 500px;
+    width: 50%;
+    border: 2px solid yellow;
+}
+
+.image-container {
+    position: relative;
+    display: block;
+}
+  
+
+.image-column {
+    float: left;
+    width: 25%;
+    padding: 10px 0 10px 0;
+}
+
+.image-column img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.image-column img:hover {
+    opacity: 0.6;
+} 
+
+.detail-produk-deskripsi {
+    height: 500px;
+    width: 35%;
+    border: 2px solid yellow;
+}
+
+.counter {
+    font-size: 15px;
+}
+/* Halaman Produk styling end */
+
 /* Footer section syling start */
 .footer {
     background-color: #fcf9f4;
