@@ -77,6 +77,27 @@ html, body {
     height: auto;
     margin: 20px 40px 0 40px;
 }
+
+.icon-keranjang {
+    width: 30px;
+    height: auto;
+    margin-top: 15px;
+    position: fixed;
+    right: 70px;
+}
+
+.icon-akun {
+    width: 30px;
+    height: auto;
+    margin-top: 15px;
+    position: fixed;
+    right: 20px;
+}
+
+.icon-keranjang img, .icon-akun img {
+    width: 30px;
+    height: auto;
+}
 /* Logo section styling end*/
 
 /* Navbar section styling start*/
@@ -93,6 +114,10 @@ nav ul {
   
 nav li {
     float: left;
+}
+
+nav li:first-child {
+    margin-left: 25px;
 }
   
 nav li a {
