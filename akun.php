@@ -1,3 +1,9 @@
+<?php
+include 'src/php_config/config.php';
+session_start();
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,13 +28,13 @@
             </div>
             <div class="icon-keranjang">
                 <img src="src/img/icon-keranjang.png" alt="keranjang">
-                <a href="keranjang.html">
+                <a href="keranjang.php">
                     <span class="span-link"></span>
                 </a>
             </div>
             <div class="icon-akun">
                 <img src="src/img/icon-akun.png" alt="akun">
-                <a href="akun.html">
+                <a href="akun.php">
                     <span class="span-link"></span>
                 </a>
             </div>
@@ -39,9 +45,10 @@
         <div>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="katalog.html">Katalog</a></li>
-                    <li><a href="tentangkami.html">Tentang Kami</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="katalog.php">Katalog</a></li>
+                    <li><a href="pesanan.php">Pesanan</a></li>
+                    <li><a href="tentangkami.php">Tentang Kami</a></li>
                 </ul>
             </nav>
         </div>
@@ -56,12 +63,20 @@
                 <img src="src/img/icon-akun.png" alt="foto akun">
             </div>
             <div class="content-left" id="akun-teks">
-                <p>Nama : Zaki Jamali Arafi</p>
-                <p>Tanggal Lahir : 30 Mei 2003</p>
-                <p>Alamat : Desa Melung RT 02 RW 02</p>
-                <p>Email : zakijamaliarafi@gmail.com</p>
-                <p>Nomor HP : 085156809540</p>
-                <button class="tombol"><a href="#">Edit Akun</a></button>
+                <?php if (isset($_SESSION['id'])): ?>
+                    <?php $sql = $sql = "SELECT * FROM pelanggan WHERE id_pelanggan='" . $_SESSION['id'] . "'";
+                        $result = $conn->query($sql);
+                        $row = $result->fetch_assoc();?>
+                    <p>Nama : <?php echo $row["nama_pelanggan"];?></p>
+                    <p>Tanggal Lahir : <?php echo $row["tgl_lahir"];?></p>
+                    <p>Alamat : <?php echo $row["alamat"];?></p>
+                    <p>Email : <?php echo $row["email"];?></p>
+                    <p>Nomor HP : <?php echo $row["no_hp"];?></p>
+                    <button class="tombol"><a href="src/php_config/logout.php">Logout</a></button>
+                <?php else: ?>
+                    <p>Kamu belum login</p>
+                    <button class="tombol"><a href="login.php">Login</a></button>
+                <?php endif; ?>
             </div>
         </div>
     </div>

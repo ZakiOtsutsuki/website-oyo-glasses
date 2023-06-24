@@ -22,13 +22,13 @@
             </div>
             <div class="icon-keranjang">
                 <img src="src/img/icon-keranjang.png" alt="keranjang">
-                <a href="keranjang.html">
+                <a href="keranjang.php">
                     <span class="span-link"></span>
                 </a>
             </div>
             <div class="icon-akun">
                 <img src="src/img/icon-akun.png" alt="akun">
-                <a href="akun.html">
+                <a href="akun.php">
                     <span class="span-link"></span>
                 </a>
             </div>
@@ -39,9 +39,10 @@
         <div>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="katalog.html">Katalog</a></li>
-                    <li><a href="tentangkami.html">Tentang Kami</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="katalog.php">Katalog</a></li>
+                    <li><a href="pesanan.php">Pesanan</a></li>
+                    <li><a href="tentangkami.php">Tentang Kami</a></li>
                 </ul>
             </nav>
         </div>
@@ -54,13 +55,13 @@
         <!-- Kategori Section Start -->
         <div class="kategori">
             <form action="#">
-                <h1>Cari berdasarkan kategori</h1>
+                <h1>Cari berdasarkan bentuk frame</h1>
                 <input type="radio" id="kategori-1" name="kategori-kacamata" onclick="filterSelection('kategori-1')" checked>
-                <label for="kategori-1">Kategori 1</label><br>
+                <label for="kategori-1">frame kotak</label><br>
                 <input type="radio" id="kategori-2" name="kategori-kacamata" onclick="filterSelection('kategori-2')">
-                <label for="kategori-2">Kategori 2</label><br>
+                <label for="kategori-2">frame oval</label><br>
                 <input type="radio" id="kategori-3" name="kategori-kacamata" onclick="filterSelection('kategori-3')">
-                <label for="kategori-3">Kategori 3</label><br>
+                <label for="kategori-3">frame bulat</label><br>
             </form>
         </div>
         <!-- Kategori Section End -->
@@ -72,73 +73,73 @@
                 <!-- Kategori 1 start -->
                 <div class="produk kategori-1">
                     <div class="produk-gambar">
-                        <img src="src/img/produk-1.jpg" alt="kacamata">
+                        <img src="src/img/helen-keller-c3w-53-1.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
-                        <h1>Kacamata 1-1</h1>
-                        <p>Rp. 1.000.000</p>
+                        <h1>Helen Keller C3W 53</h1>
+                        <p>Rp. 340.000</p>
                     </div>
-                    <a href="produk.html">
+                    <a href="produk/helen-keller-c3w-53.php">
                         <span class="span-link"></span>
                     </a>
                 </div>
                 <div class="produk kategori-1">
                     <div class="produk-gambar">
-                        <img src="src/img/produk-1.jpg" alt="kacamata">
+                        <img src="src/img/helen-keller-c1b-53-1.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
-                        <h1>Kacamata 1-2</h1>
-                        <p>Rp. 1.000.000</p>
+                        <h1>Helen Keller C1B 53</h1>
+                        <p>Rp. 340.000</p>
                     </div>
-                    <a href="produk.html">
+                    <a href="#">
                         <span class="span-link"></span>
                     </a>
                 </div>
                 <div class="produk kategori-1">
                     <div class="produk-gambar">
-                        <img src="src/img/produk-1.jpg" alt="kacamata">
+                        <img src="src/img/ilustro-c7-55-1.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
-                        <h1>Kacamata 1-3</h1>
-                        <p>Rp. 1.000.000</p>
+                        <h1>Ilusto C7 55</h1>
+                        <p>Rp. 600.000</p>
                     </div>
-                    <a href="produk.html">
+                    <a href="#">
                         <span class="span-link"></span>
                     </a>
                 </div>
                 <div class="produk kategori-1">
                     <div class="produk-gambar">
-                        <img src="src/img/produk-1.jpg" alt="kacamata">
+                        <img src="src/img/ilustro-c1-55-1.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
-                        <h1>Kacamata 1-4</h1>
-                        <p>Rp. 1.000.000</p>
+                        <h1>Ilustro C1 55</h1>
+                        <p>Rp. 600.000</p>
                     </div>
-                    <a href="produk.html">
+                    <a href="#">
                         <span class="span-link"></span>
                     </a>
                 </div>
                 <div class="produk kategori-1">
                     <div class="produk-gambar">
-                        <img src="src/img/produk-1.jpg" alt="kacamata">
+                        <img src="src/img/ilustro-c6-55-1.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
-                        <h1>Kacamata 1-5</h1>
-                        <p>Rp. 1.000.000</p>
+                        <h1>Ilustro C6 55</h1>
+                        <p>Rp. 600.000</p>
                     </div>
-                    <a href="produk.html">
+                    <a href="#">
                         <span class="span-link"></span>
                     </a>
                 </div>
                 <div class="produk kategori-1">
                     <div class="produk-gambar">
-                        <img src="src/img/produk-1.jpg" alt="kacamata">
+                        <img src="src/img/ilustro-032-50-1.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
-                        <h1>Kacamata 1-6</h1>
-                        <p>Rp. 1.000.000</p>
+                        <h1>Ilustro 032 50</h1>
+                        <p>Rp. 418.000</p>
                     </div>
-                    <a href="produk.html">
+                    <a href="#">
                         <span class="span-link"></span>
                     </a>
                 </div>
@@ -147,73 +148,73 @@
                 <!-- Kategori 2 start -->
                 <div class="produk kategori-2">
                     <div class="produk-gambar">
-                        <img src="src/img/produk-1.jpg" alt="kacamata">
+                        <img src="src/img/ilustro-c5-54-1.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
-                        <h1>Kacamata 2-1</h1>
-                        <p>Rp. 1.000.000</p>
+                        <h1>Ilustro C5 54</h1>
+                        <p>Rp. 600.000</p>
                     </div>
-                    <a href="produk.html">
+                    <a href="#">
                         <span class="span-link"></span>
                     </a>
                 </div>
                 <div class="produk kategori-2">
                     <div class="produk-gambar">
-                        <img src="src/img/produk-1.jpg" alt="kacamata">
+                        <img src="src/img/ilustro-c3-54-1.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
-                        <h1>Kacamata 2-2</h1>
-                        <p>Rp. 1.000.000</p>
+                        <h1>Ilustro C3 54</h1>
+                        <p>Rp. 600.000</p>
                     </div>
-                    <a href="produk.html">
+                    <a href="#">
                         <span class="span-link"></span>
                     </a>
                 </div>
                 <div class="produk kategori-2">
                     <div class="produk-gambar">
-                        <img src="src/img/produk-1.jpg" alt="kacamata">
+                        <img src="src/img/ilustro-c7-53-1.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
-                        <h1>Kacamata 2-3</h1>
-                        <p>Rp. 1.000.000</p>
+                        <h1>Ilustro C7 53</h1>
+                        <p>Rp. 510.000</p>
                     </div>
-                    <a href="produk.html">
+                    <a href="#">
                         <span class="span-link"></span>
                     </a>
                 </div>
                 <div class="produk kategori-2">
                     <div class="produk-gambar">
-                        <img src="src/img/produk-1.jpg" alt="kacamata">
+                        <img src="src/img/ilustro-c1-53-1.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
-                        <h1>Kacamata 2-4</h1>
-                        <p>Rp. 1.000.000</p>
+                        <h1>Ilustro C1 53</h1>
+                        <p>Rp. 600.000</p>
                     </div>
-                    <a href="produk.html">
+                    <a href="#">
                         <span class="span-link"></span>
                     </a>
                 </div>
                 <div class="produk kategori-2">
                     <div class="produk-gambar">
-                        <img src="src/img/produk-1.jpg" alt="kacamata">
+                        <img src="src/img/helen-keller-c4-52-1.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
-                        <h1>Kacamata 2-5</h1>
-                        <p>Rp. 1.000.000</p>
+                        <h1>Helen Keller C4 52</h1>
+                        <p>Rp. 340.000</p>
                     </div>
-                    <a href="produk.html">
+                    <a href="#">
                         <span class="span-link"></span>
                     </a>
                 </div>
                 <div class="produk kategori-2">
                     <div class="produk-gambar">
-                        <img src="src/img/produk-1.jpg" alt="kacamata">
+                        <img src="src/img/helen-keller-c3w-52-1.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
-                        <h1>Kacamata 2-6</h1>
-                        <p>Rp. 1.000.000</p>
+                        <h1>Helen Keller C3W 52</h1>
+                        <p>Rp. 340.000</p>
                     </div>
-                    <a href="produk.html">
+                    <a href="#">
                         <span class="span-link"></span>
                     </a>
                 </div>
@@ -222,73 +223,73 @@
                 <!-- Kategori 3 start -->
                 <div class="produk kategori-3">
                     <div class="produk-gambar">
-                        <img src="src/img/produk-1.jpg" alt="kacamata">
+                        <img src="src/img/helen-keller-c19-51-1.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
-                        <h1>Kacamata 3-1</h1>
-                        <p>Rp. 1.000.000</p>
+                        <h1>Helen Keller C1/9 51</h1>
+                        <p>Rp. 400.000</p>
                     </div>
-                    <a href="produk.html">
+                    <a href="#">
                         <span class="span-link"></span>
                     </a>
                 </div>
                 <div class="produk kategori-3">
                     <div class="produk-gambar">
-                        <img src="src/img/produk-1.jpg" alt="kacamata">
+                        <img src="src/img/helen-keller-c18-51-1.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
-                        <h1>Kacamata 3-2</h1>
-                        <p>Rp. 1.000.000</p>
+                        <h1>Helen Keller C1/8 51</h1>
+                        <p>Rp. 340.000</p>
                     </div>
-                    <a href="produk.html">
+                    <a href="#">
                         <span class="span-link"></span>
                     </a>
                 </div>
                 <div class="produk kategori-3">
                     <div class="produk-gambar">
-                        <img src="src/img/produk-1.jpg" alt="kacamata">
+                        <img src="src/img/serenade-c5-52-1.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
-                        <h1>Kacamata 3-3</h1>
-                        <p>Rp. 1.000.000</p>
+                        <h1>Serenade C5 52</h1>
+                        <p>Rp. 400.000</p>
                     </div>
-                    <a href="produk.html">
+                    <a href="#">
                         <span class="span-link"></span>
                     </a>
                 </div>
                 <div class="produk kategori-3">
                     <div class="produk-gambar">
-                        <img src="src/img/produk-1.jpg" alt="kacamata">
+                        <img src="src/img/serenade-c6-47-1.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
-                        <h1>Kacamata 3-4</h1>
-                        <p>Rp. 1.000.000</p>
+                        <h1>Serenade C6 47</h1>
+                        <p>Rp. 400.000</p>
                     </div>
-                    <a href="produk.html">
+                    <a href="#">
                         <span class="span-link"></span>
                     </a>
                 </div>
                 <div class="produk kategori-3">
                     <div class="produk-gambar">
-                        <img src="src/img/produk-1.jpg" alt="kacamata">
+                        <img src="src/img/serenade-c3-47-1.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
-                        <h1>Kacamata 3-5</h1>
-                        <p>Rp. 1.000.000</p>
+                        <h1>Serenade C3 47</h1>
+                        <p>Rp. 340.000</p>
                     </div>
-                    <a href="produk.html">
+                    <a href="#">
                         <span class="span-link"></span>
                     </a>
                 </div>
                 <div class="produk kategori-3">
                     <div class="produk-gambar">
-                        <img src="src/img/produk-1.jpg" alt="kacamata">
+                        <img src="src/img/helen-keller-c1-52-1.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
-                        <h1>Kacamata 3-6</h1>
-                        <p>Rp. 1.000.000</p>
+                        <h1>Helen Keller C1 52</h1>
+                        <p>Rp. 400.000</p>
                     </div>
-                    <a href="produk.html">
+                    <a href="#">
                         <span class="span-link"></span>
                     </a>
                 </div>

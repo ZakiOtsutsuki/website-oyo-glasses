@@ -44,8 +44,9 @@ function showImage(imagesource) {
   expandImg.src = imagesource; // Get the image text
   expandImg.parentElement.style.display = "block"; // Show the container element (hidden with CSS)
 }
+// 
 
-
+// 
 let counterElement = document.getElementById('counter');
 let count = 1; // Set the initial count
 counterElement.textContent = count;
@@ -53,13 +54,34 @@ function updateCounter() { // Function to update the counter
   counterElement.textContent = count;
 }
 function incrementCount() { // Function to increment the count
-  count++;
+  if(count < 10){
+    count++;
   updateCounter();
+  }
 }
 function decrementCount() { // Function to decrement the count
-  if(count >= 2){
+  if(count > 1){
     count--;
     updateCounter();
   }
 }
+function submitbeli() {
+  // Set the value of a hidden input field in the form
+  document.getElementById("jsVariableInput").value = count;
+  // Submit the form
+  document.getElementById("myForm").submit();
+}
+// function submitkeranjang() {
+//   // Set the value of a hidden input field in the form
+//   document.getElementById("jsVariableInput").value = count;
+//   // Submit the form
+//   document.getElementById("myForm").submit();
+// }
+//
 
+//
+function logindulu() {
+  alert("Kamu belum login");
+  window.location = '../login.php';
+}
+//

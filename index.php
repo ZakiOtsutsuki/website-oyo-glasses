@@ -21,13 +21,13 @@
             </div>
             <div class="icon-keranjang">
                 <img src="src/img/icon-keranjang.png" alt="keranjang">
-                <a href="keranjang.html">
+                <a href="keranjang.php">
                     <span class="span-link"></span>
                 </a>
             </div>
             <div class="icon-akun">
                 <img src="src/img/icon-akun.png" alt="akun">
-                <a href="akun.html">
+                <a href="akun.php">
                     <span class="span-link"></span>
                 </a>
             </div>
@@ -38,9 +38,10 @@
         <div>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="katalog.html">Katalog</a></li>
-                    <li><a href="tentangkami.html">Tentang Kami</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="katalog.php">Katalog</a></li>
+                    <li><a href="pesanan.php">Pesanan</a></li>
+                    <li><a href="tentangkami.php">Tentang Kami</a></li>
                 </ul>
             </nav>
         </div>
@@ -56,7 +57,7 @@
         <div>
             <h1>Harga Murah Kualitas</h1>
             <h1>Mewah</h1>
-            <button class="tombol"><a href="katalog.html">Beli Sekarang</a></button>
+            <button class="tombol"><a href="katalog.php">Beli Sekarang</a></button>
         </div> 
     </div>
     <!-- Hero Section End -->
