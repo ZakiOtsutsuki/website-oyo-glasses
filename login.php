@@ -1,8 +1,5 @@
 <?php
-include 'src/php_config/config.php';
- 
-error_reporting(0);
- 
+include 'src/php_config/config.php'; 
 session_start();
  
 if (isset($_SESSION['id'])) {
