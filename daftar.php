@@ -85,7 +85,7 @@ if (isset($_POST['daftar'])) {
                     </tr>
                     <tr>
                         <td><label for="password" >Password</label></td>
-                        <td><input type="text" id="password" name="password"></td>
+                        <td><input type="password" id="password" name="password"></td>
                     </tr>
                     <tr>
                         <td colspan="2"><input type="submit" value="Daftar" id="tombol-daftar" name="daftar"></td>
