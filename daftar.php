@@ -1,9 +1,5 @@
 <?php 
- 
 include 'src/php_config/config.php';
- 
-error_reporting(0);
- 
 session_start();
 
 $sql = "SELECT * from pelanggan";
@@ -45,7 +41,6 @@ if (isset($_POST['daftar'])) {
         echo "<script>alert('Woops! Email Sudah Terdaftar.')</script>";
     }
 }
- 
 ?>
 
 <!DOCTYPE html>
