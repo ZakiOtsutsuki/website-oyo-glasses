@@ -73,7 +73,7 @@
                 <!-- Kategori 1 start -->
                 <div class="produk kategori-1">
                     <div class="produk-gambar">
-                        <img src="src/img/helen-keller-c3w-53-1.png" alt="kacamata">
+                        <img src="src/img/helen-keller-c3w-53.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
                         <h1>Helen Keller C3W 53</h1>
@@ -85,61 +85,61 @@
                 </div>
                 <div class="produk kategori-1">
                     <div class="produk-gambar">
-                        <img src="src/img/helen-keller-c1b-53-1.png" alt="kacamata">
+                        <img src="src/img/helen-keller-c1b-53.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
                         <h1>Helen Keller C1B 53</h1>
                         <p>Rp. 340.000</p>
                     </div>
-                    <a href="#">
+                    <a href="produk/helen-keller-c1b-53.php">
                         <span class="span-link"></span>
                     </a>
                 </div>
                 <div class="produk kategori-1">
                     <div class="produk-gambar">
-                        <img src="src/img/ilustro-c7-55-1.png" alt="kacamata">
+                        <img src="src/img/ilustro-c7-55.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
-                        <h1>Ilusto C7 55</h1>
+                        <h1>Ilustro C7 55</h1>
                         <p>Rp. 600.000</p>
                     </div>
-                    <a href="#">
+                    <a href="produk/ilustro-c7-55.php">
                         <span class="span-link"></span>
                     </a>
                 </div>
                 <div class="produk kategori-1">
                     <div class="produk-gambar">
-                        <img src="src/img/ilustro-c1-55-1.png" alt="kacamata">
+                        <img src="src/img/ilustro-c1-55.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
                         <h1>Ilustro C1 55</h1>
                         <p>Rp. 600.000</p>
                     </div>
-                    <a href="#">
+                    <a href="produk/ilustro-c1-55.php">
                         <span class="span-link"></span>
                     </a>
                 </div>
                 <div class="produk kategori-1">
                     <div class="produk-gambar">
-                        <img src="src/img/ilustro-c6-55-1.png" alt="kacamata">
+                        <img src="src/img/ilustro-c6-55.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
                         <h1>Ilustro C6 55</h1>
                         <p>Rp. 600.000</p>
                     </div>
-                    <a href="#">
+                    <a href="produk/ilustro-c6-55.php">
                         <span class="span-link"></span>
                     </a>
                 </div>
                 <div class="produk kategori-1">
                     <div class="produk-gambar">
-                        <img src="src/img/ilustro-032-50-1.png" alt="kacamata">
+                        <img src="src/img/ilustro-032-50.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
                         <h1>Ilustro 032 50</h1>
                         <p>Rp. 418.000</p>
                     </div>
-                    <a href="#">
+                    <a href="produk/ilustro-032-50.php">
                         <span class="span-link"></span>
                     </a>
                 </div>
@@ -148,73 +148,73 @@
                 <!-- Kategori 2 start -->
                 <div class="produk kategori-2">
                     <div class="produk-gambar">
-                        <img src="src/img/ilustro-c5-54-1.png" alt="kacamata">
+                        <img src="src/img/ilustro-c5-54.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
                         <h1>Ilustro C5 54</h1>
                         <p>Rp. 600.000</p>
                     </div>
-                    <a href="#">
+                    <a href="produk/ilustro-c5-54.php">
                         <span class="span-link"></span>
                     </a>
                 </div>
                 <div class="produk kategori-2">
                     <div class="produk-gambar">
-                        <img src="src/img/ilustro-c3-54-1.png" alt="kacamata">
+                        <img src="src/img/ilustro-c3-54.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
                         <h1>Ilustro C3 54</h1>
                         <p>Rp. 600.000</p>
                     </div>
-                    <a href="#">
+                    <a href="produk/ilustro-c3-54.php">
                         <span class="span-link"></span>
                     </a>
                 </div>
                 <div class="produk kategori-2">
                     <div class="produk-gambar">
-                        <img src="src/img/ilustro-c7-53-1.png" alt="kacamata">
+                        <img src="src/img/ilustro-c7-53.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
                         <h1>Ilustro C7 53</h1>
                         <p>Rp. 510.000</p>
                     </div>
-                    <a href="#">
+                    <a href="produk/ilustro-c7-53.php">
                         <span class="span-link"></span>
                     </a>
                 </div>
                 <div class="produk kategori-2">
                     <div class="produk-gambar">
-                        <img src="src/img/ilustro-c1-53-1.png" alt="kacamata">
+                        <img src="src/img/ilustro-c1-53.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
                         <h1>Ilustro C1 53</h1>
                         <p>Rp. 600.000</p>
                     </div>
-                    <a href="#">
+                    <a href="produk/ilustro-c1-53.php">
                         <span class="span-link"></span>
                     </a>
                 </div>
                 <div class="produk kategori-2">
                     <div class="produk-gambar">
-                        <img src="src/img/helen-keller-c4-52-1.png" alt="kacamata">
+                        <img src="src/img/helen-keller-c4-52.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
                         <h1>Helen Keller C4 52</h1>
                         <p>Rp. 340.000</p>
                     </div>
-                    <a href="#">
+                    <a href="produk/helen-keller-c4-52.php">
                         <span class="span-link"></span>
                     </a>
                 </div>
                 <div class="produk kategori-2">
                     <div class="produk-gambar">
-                        <img src="src/img/helen-keller-c3w-52-1.png" alt="kacamata">
+                        <img src="src/img/helen-keller-c3w-52.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
                         <h1>Helen Keller C3W 52</h1>
                         <p>Rp. 340.000</p>
                     </div>
-                    <a href="#">
+                    <a href="produk/helen-keller-c3w-52.php">
                         <span class="span-link"></span>
                     </a>
                 </div>
@@ -223,73 +223,73 @@
                 <!-- Kategori 3 start -->
                 <div class="produk kategori-3">
                     <div class="produk-gambar">
-                        <img src="src/img/helen-keller-c19-51-1.png" alt="kacamata">
+                        <img src="src/img/helen-keller-c19-51.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
                         <h1>Helen Keller C1/9 51</h1>
                         <p>Rp. 400.000</p>
                     </div>
-                    <a href="#">
+                    <a href="produk/helen-keller-c19-51.php">
                         <span class="span-link"></span>
                     </a>
                 </div>
                 <div class="produk kategori-3">
                     <div class="produk-gambar">
-                        <img src="src/img/helen-keller-c18-51-1.png" alt="kacamata">
+                        <img src="src/img/helen-keller-c18-51.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
                         <h1>Helen Keller C1/8 51</h1>
                         <p>Rp. 340.000</p>
                     </div>
-                    <a href="#">
+                    <a href="produk/helen-keller-c18-51.php">
                         <span class="span-link"></span>
                     </a>
                 </div>
                 <div class="produk kategori-3">
                     <div class="produk-gambar">
-                        <img src="src/img/serenade-c5-52-1.png" alt="kacamata">
+                        <img src="src/img/serenade-c5-52.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
                         <h1>Serenade C5 52</h1>
                         <p>Rp. 400.000</p>
                     </div>
-                    <a href="#">
+                    <a href="produk/serenade-c5-52.php">
                         <span class="span-link"></span>
                     </a>
                 </div>
                 <div class="produk kategori-3">
                     <div class="produk-gambar">
-                        <img src="src/img/serenade-c6-47-1.png" alt="kacamata">
+                        <img src="src/img/serenade-c6-47.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
                         <h1>Serenade C6 47</h1>
                         <p>Rp. 400.000</p>
                     </div>
-                    <a href="#">
+                    <a href="produk/serenade-c6-47.php">
                         <span class="span-link"></span>
                     </a>
                 </div>
                 <div class="produk kategori-3">
                     <div class="produk-gambar">
-                        <img src="src/img/serenade-c3-47-1.png" alt="kacamata">
+                        <img src="src/img/serenade-c3-47.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
                         <h1>Serenade C3 47</h1>
                         <p>Rp. 340.000</p>
                     </div>
-                    <a href="#">
+                    <a href="produk/serenade-c3-47.php">
                         <span class="span-link"></span>
                     </a>
                 </div>
                 <div class="produk kategori-3">
                     <div class="produk-gambar">
-                        <img src="src/img/helen-keller-c1-52-1.png" alt="kacamata">
+                        <img src="src/img/helen-keller-c1-52.png" alt="kacamata">
                     </div>
                     <div class="produk-deskripsi">
                         <h1>Helen Keller C1 52</h1>
                         <p>Rp. 400.000</p>
                     </div>
-                    <a href="#">
+                    <a href="produk/helen-keller-c1-52.php">
                         <span class="span-link"></span>
                     </a>
                 </div>
